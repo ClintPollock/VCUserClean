@@ -27,7 +27,7 @@ run `python fetch_users.py` script to fetch users from the Veracode API and save
     Details are stored in log.txt for your archive.
 ## Sample Output
 
-### Sample [UsersToDelete.csv](http://_vscodecontentref_/3)
+### Sample `UsersToDelete.csv`
 
-The CSV will include the following:
+The CSVs will include the following:
 user_id,user_legacy_id,user_name,first_name,last_name,email_address,saml_user,login_enabled
