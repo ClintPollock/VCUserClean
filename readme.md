@@ -10,8 +10,7 @@ This repository contains Python script to fetch users, and then delete users.
 ## Configuration
 
 1. **Install Dependencies**:
-    Python
-    pip install requests veracode-api-signing
+    Python is requied, also install veracode-api-signing - "pip install requests veracode-api-signing"
     
 
 2. **Update veracode_credentials.json**:
@@ -20,7 +19,7 @@ This repository contains Python script to fetch users, and then delete users.
 ## Usage
 
 1. **Fetch Users**:
-run "python fetch_users.py" script to fetch users from the Veracode API and save them to a CSV file(s).  One called CurrentUsers.csv as an original, and the other is a copy for you to edit.  Remove users you do not want to delete in UsersToDelete.csv.
+run "python fetch_users.py" script to fetch users from the Veracode API and saves them to CSV files.  One is called CurrentUsers.csv as an original, and the other is a copy for you to edit.  Remove users you do not want to delete in UsersToDelete.csv.
 
 
 2. **Delete Users**:
