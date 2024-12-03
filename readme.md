@@ -1,6 +1,6 @@
 # Veracode User Clean Up Scripts
 
-This repository contains Python script to fetch users, and then delete users.
+This repository contains Python scripts to fetch users, and then delete users.
 
 ## Scripts
 
@@ -13,7 +13,7 @@ This repository contains Python script to fetch users, and then delete users.
     Python is required, also install veracode-api-signing with command - `pip install veracode-api-signing`
     
 
-2. **Update veracode_credentials.json**:
+2. **Update included veracode_credentials.json**:
     Update your API key and secret (must have administrator role).
 
 ## Usage
